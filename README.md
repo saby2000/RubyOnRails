@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple RoR MVC REST API to perform CRUD functions.
 
-Things you may want to cover:
+functionalities:-
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Fetch the data from the database and send the response in JSON.
+Post the request to the API to perform the database operations. The post request method must display the books newly added to the database collection.
+Table structure:- Book[B_id, B_title, Author, Publisher, Year]
